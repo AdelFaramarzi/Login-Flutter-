@@ -1,0 +1,46 @@
+name: the_gorgeous_login
+description: Gorgeous Login UI
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  font_awesome_flutter: ^8.0.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+      - assets/login_logo.png
+
+  fonts:
+   
+    - family: IRANSansMobLight
+      fonts:
+        - asset: assets/fonts/Iran_Sans/IRANSansWeb_Light.ttf
+
+    - family: IRANSansMob_Medium
+      fonts:   
+        - asset: assets/fonts/Iran_Sans/IRANSansWeb_Medium.ttf
+
+    - family: IRANSansMobBold
+      fonts:
+        - asset: assets/fonts/Iran_Sans/IRANSansWeb_Bold.ttf
+
+    - family: IRANSansWeb
+      fonts:
+        - asset: assets/fonts/Iran_Sans/IRANSansWeb.ttf
+
+   
